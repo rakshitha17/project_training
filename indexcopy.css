@@ -797,8 +797,6 @@ button1:hover {
     display:flex;
     border-radius: 5px;
     flex-direction:row;
-      border-radius: 5px;
-      border-radius: 5px;
       box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
   }
   .child2
