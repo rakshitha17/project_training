@@ -1,0 +1,885 @@
+.gridLayout{
+    margin: auto;
+    max-width: 1280px;
+    }
+    .clearfix
+    {
+    overflow:auto;
+    overflow-y: hidden;
+    }
+    .clearfix::after 
+    {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    .classLeft
+    {
+        float: left;
+    }
+    .classRight
+    {
+        float: right;
+    }
+    .horizontalAlign
+    {
+        display: inline-block;
+    }
+    
+.dot {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.green
+{
+    margin-top: 70px;
+    margin-left: 47px;
+    background-color: #7ed321;
+}
+.red1
+{
+    background-color: #ed3a51;
+}
+.red2
+{
+    background-color: #ed3a51;
+}
+.red3
+{
+    background-color: #ed3a51;
+}
+.hamburger {
+    height: 2.3px;
+    border-radius: 1px;
+    margin: 6px 0;
+    background-color: #ffffff;
+    
+    width: 19.5px;
+  }
+  .hamBurgerBlock
+  {
+      margin-left: 30px;
+      margin-top: 15px;
+      width:20px;
+  }
+  .headContainer
+   {
+       height:54px;
+       background-color: #495965;
+       display:flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+   
+ .Container
+ {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .arrowLeftClass
+ {
+     flex:1;
+     position: absolute;
+     margin-top: 80px;
+     margin-left: 10px;
+ }
+ .arrowRightClass
+ {
+     float: right;
+    margin-right: 20px;
+    margin-top: -100px;
+}
+ 
+ .imageClass
+ {
+    
+    flex:1;
+ }
+ .inputForm
+ {
+    background-color: #2a4c69;
+    border-color: #00000000;
+    border-radius: 5px;
+    color: #ffffffff;
+    font: normal bold Roboto;
+    height: 45px;
+    opacity: 0.5;
+    width: 422px;
+    margin-top: 12px;
+ }
+ .search
+ {
+width:20px;
+height:20px;
+ }
+ .location
+ {
+    width: 14px;
+  height: 20px;
+  background-color: #495965;
+ }
+ .message
+ {
+    width: 20px;
+    height: 16px;
+    background-color: #495965;
+ }
+ .notification
+ {
+    width: 19px;
+    height: 21px;
+    /* object-fit: contain; */
+    padding: 15px;
+    background-color: #495965;
+ }
+ /* Style the buttons */
+.btn {
+    /* padding: 10px 16px; */
+    background-color: #f1f1f1;
+    cursor: pointer;
+    height:60px;
+    border: none;
+    /* font-size: 18px; */
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+    background-color: #666;
+    text-underline-position: below;
+    color: white;
+}
+ .bgimage
+ {
+    
+    /* background-repeat: no-repeat;*/
+    background-position: center; 
+    /* box-sizing: border-box; */
+    height:800px;
+    margin:0 auto;
+    background-color: #f1f1f1;
+    /* padding: 20px; */
+ }
+ .wallpaperBackground{
+    background-image: url("/assets/bgimage.jpg");
+    width: 100%;
+    height: 100%;
+    /* background-color: #e3f9d4; */
+    /* padding: 15px; */
+    box-sizing: border-box;
+    background-size: cover;
+}
+.horizontalMargin
+{
+    margin-top: 20px;
+}
+.searchBar
+{
+        position: relative;
+        display: inline;
+    
+}
+.setWidth
+{
+    overflow: hidden;
+    width:100%;
+}
+.setMaxWidth
+{
+    margin: 0px auto;
+    max-width: 2048px;
+}
+.marginLeftRight
+{
+    margin-left: 94px;
+    margin-right: 96px;
+}
+/* top section */
+.bodyTop
+{
+    margin-top: 20px;
+}
+.headButton{
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #00a8f6;
+    border-color: transparent;
+    margin-left: 15px;
+    
+}
+.logout
+{
+    /* width: 50px;
+    height: 14px; */
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+}
+
+.headcontent
+{
+    padding-left: 12px;
+}
+
+#welcome
+{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #bcbcbc;
+}
+#customer
+{
+    font-family: Roboto;
+  font-size: 10px;
+  color: #bcbcbc;
+}
+.line
+{
+    width: 3px;
+    height: 37px;
+    opacity: 0.5;
+    border: solid 1px #ffffff;
+}
+.mainContainerWrapper
+{
+    width:100%;
+    /* height:270px; */
+    display:flex;
+    
+    box-sizing:border-box;
+    /* border:2px solid red; */
+  }
+  .mainContainerWrapperChild1
+  {
+    /* height:250px; */
+    width:70%;
+    background-color:#fff;
+    margin: 0 10px;
+  }
+  .mainContainerWrapperChild2
+  {
+    /* height:250px; */
+    width:45%;
+    background-color:#fff;
+    /* margin: px; */
+  }
+  
+.mainContent
+{
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.balancePayment
+{
+    background-color: #ffffff;
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 2%;
+    
+}
+.balanceInfo
+{
+    width: 50%;
+    
+    margin-bottom: 15px;
+}
+.balanceDropdown
+{
+    margin: 4%;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+    color: #4a4a4a;
+    font-family: Roboto-Medium;
+    height: 46px;
+    left: 18px;
+    padding: 0px 0px 0px 12px;
+    width: 90%;
+    /* background: url("/assets/arrowdown.png") white no-repeat ; */
+    /* background: url(/images/arrow.png) white no-repeat calc(100% - 10px) */
+}
+.balInfo
+{
+    padding: 2% 4% 0% 4%;
+}
+.availBal
+{
+    font-family: Roboto;
+    font-size: 12px;
+    color: #000000;
+   
+}
+.accInfo
+{
+    color: #0871f4;
+    font-size: 38px;
+    font-family: Roboto-Light;
+    padding: 3% 0% 3% 0%;
+}
+.asOfDate
+{
+    color: #99999999;
+    font-family: Roboto-Regular;
+    font-size: 12px;
+    padding: 2% 0% 2% 0%;
+}
+.linkTransaction
+{
+    color: #0871f4;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 0.2px;
+    text-decoration: none 
+}
+.line2
+{
+    border-right: 2px solid #bcbcbc;
+    display: inline;
+    padding: 0% 2%;
+}
+.makeTransfer
+{
+    padding: 0% 4%;
+}
+.paymentInformation
+{
+    
+    padding: 2% 4% 2% 8%;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 38px;
+    margin-left: 100px;
+}
+.interestPayment
+{
+    font-size: 12px;
+    display: block;
+    padding-left: 0%;
+    padding: 3% 0%;
+}
+.paymentDate
+{
+    font-family: Roboto-Regular;
+}
+.description
+{
+    font-family: Roboto-Medium;
+    color: grey;
+    padding: 1.2% 0% 1.2% 0%;
+    font-weight: bold;
+    font-size: 12px;
+}
+.rate{
+    color: #0871f4;
+    font-family: Roboto-Regular;
+}
+.spending
+{
+    background-color: #ffffffff;
+    margin-top: 2%;
+    border-radius: 5px;
+    
+    width: 300px;
+    margin-left: 1%;
+    padding-bottom: 2%;
+}
+.descContain
+{
+padding:5%;
+}
+.spendingTag
+{
+    display: inline;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* .spending
+{
+    background-color: #ffffffff;
+    margin-top: 2%;
+    border-radius: 5px;
+    float: left;
+    width: 350px;
+    margin-left: 0.53%;
+    padding-bottom: 2%;
+} */
+.descContain
+{
+padding:5%;
+}
+.spendingTag
+{
+    display: inline;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: normal;
+}
+.dateActive
+{
+        display: inline;
+        padding: 0% 12% 0% 12%;
+}
+.dateTag
+{
+    color: #9b9b9b;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 500;
+}
+.graphSpendings
+{
+    color: #9b9b9b;
+    font-family: Heebo;
+    font-size: 10px;
+    display: inline-block;
+    margin: 4% 6%;
+}
+.pieChart
+{
+    width: 142.4px;
+    height: 142.4px;
+   
+
+    /* margin: 80px 100px; */
+}
+.list_horizontal li {
+    display: inline-block;
+}
+.header{
+    margin-top: 15px;
+    /* height:270px; */
+    display:flex;
+    /* box-sizing:border-box; */
+    /* border:2px solid red; */
+  }
+  .quickpayDiv{
+    height:235px;
+    flex:1;
+    background-color:#fff;
+    margin: 0px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  }
+  .pay_info {
+    
+    background-color: #ffffff;
+    margin-top: 1%;
+    border-radius: 5px;
+}
+.payment_wrapper {
+    margin-left: 10px;
+}
+
+
+.quickPay {
+    color: black;
+    font-family: Roboto;
+    font-size: 16px;
+    padding: 5% 5% 5% 0%;
+}
+.fromAccount {
+    color: #737373;
+    font-size: 11px;
+    font-family: Heebo;
+    font-weight: normal;
+    letter-spacing: normal;
+}
+.accType{
+    background-color: #ffffffff;
+    border-color: #ffffffff;
+    border-bottom: 1px solid#9b9b9b;
+    font-family: Heebo;
+    font-size: 15px;
+    width: 100%;
+    margin: 2% 0%;
+}
+.transferButton {
+    color: #0871f4;
+    background-color: #ffffffff;
+    border: 1px solid #0871f4;
+    border-radius: 3px;
+    font-family: Heebo;
+    font-weight: bold;
+    height: 32px;
+    width: 110px;
+    margin-right: 5%;
+    cursor: pointer;
+    float: right;
+}
+.totAmount {
+    border-color: transparent;
+    border-bottom: 1px solid #9b9b9b;
+    font-family: Heebo;
+    font-size: 15px;
+    width: 125px;
+    margin: 3% 0% 2% 0%;
+}
+
+  .imageWrapper{
+    height:228px;
+    flex:1;
+border-radius: 5px;
+    background-color:#fff;
+   margin: 0 10px;
+  }
+  .listDiv{
+    height:235px;
+   flex:1;
+    background-color:transparent;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  }
+  .listWrapper{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   /* height:230px;
+   width:30%; */
+   background-color:transparent;
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  
+ }
+ .transactionButton
+ {
+    /* float: left; */
+    border-radius: 5px;
+ }
+
+.paymentButton {
+    padding: 1% 0% 7% 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.transactButtons {
+   
+ 
+    color: #ffffffff;
+ width: 97px;
+ height: 95px;
+ border-radius: 5px;
+ background-color: #46ab99;
+ border: hidden;
+    margin: 2px;
+ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+}
+/* .classFlexList
+{
+    display:flex;
+} */
+  .bannerImage
+  {
+    
+      width: 100%;
+  height: 235px;
+  }
+  .footer1 {
+    position: relative;
+    top: 12%;
+    left: 90%;
+    width: 8%;
+}
+.blackSquare{
+    background-color: #46ab99;
+    float: right;
+    height: 24px;
+    width: 24px;
+    margin-left: 5%;
+}
+.blueSquare {
+    background-color: #00a8f6;
+    float: right;
+    height: 24px;
+    width: 24px;
+    margin-left: 5%;
+}
+.greenSquare{
+    background-color: #495965;;
+    float: right;
+    height: 24px;
+    width: 24px;
+    margin-left: 10%;
+}
+.mainFooter, .footer1, .footer2 {
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.footer2 {
+   
+    font-family: Roboto;
+  font-size: 8px;
+  text-align: center;
+  color: #ffffff;
+} 
+/* 
+button css */
+/* * {box-sizing: border-box} */
+/* Full-width input fields */
+/* input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+} */
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+ button+ {
+
+    color: #ffffffff;
+    background-color: #46ab99;
+    border: transparent;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 15px;
+    height: 95px;
+    text-align: center;
+    width: 97px;
+    display: inline;
+    margin-top: 1%;
+} 
+
+button1:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+.signupbtn
+{
+    padding: 14px 20px;
+    background-color:green;
+    float: right;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+/* hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+  */
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+.transfer
+{
+    float: right;
+   
+}
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* flex*/
+
+.header1{
+    width:100%;
+    height:700px; 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-sizing:border-box;
+    margin-top: 40px;
+  }
+  .div1
+  {
+    flex:3;
+    background-color:transparent;
+    height:800px;
+  padding:10px;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  }
+  .children1
+  {
+    width:50%; 
+    height:100%;
+    background-color:white; 
+    
+   
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  }
+  .children2
+  {
+    width:50%; 
+    height:100%;
+    background-color:white; 
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  }
+  .div2
+  {
+    flex:1;
+  background-color: transparent;
+    height:800px;
+    margin:5px;
+    display:flex;
+    padding-right:10px;
+    flex-direction:column;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .child1
+  {
+    width:100%; 
+    height:300px;
+    background-color:transparent; 
+    margin:5px;
+    display:flex;
+    border-radius: 5px;
+    flex-direction:row;
+      border-radius: 5px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  }
+  .child2
+  {
+    width:100%; 
+      height:235px;
+    background-color:transparent; 
+    display:flex;
+    flex-direction:row;
+    margin:5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  }
+  .child3
+  {
+    width:100%; 
+    height:300px;
+    background-color:#fff;
+     margin:5px;
+     border-radius: 5px;
+     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  }
+  .child4
+  {
+    width:100%; 
+      height:235px;
+    background-color:transparent; 
+    margin:5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  }
+  .body1
+  {
+    width:300px;
+    border-radius: 5px;
+    background-color:white;
+   
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  }
+  .body2
+  {
+    flex:2;
+    background-color:white;
+    margin:2.5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  }
+ .activeTag
+ {
+    width: 64px;
+    height: 2px;
+    background-color: #0871f4;
+    border:hidden;
+ }
+ 
+.pieChartFlex
+{
+    flex:3;
+}
+.arrowLeft{
+    flex:1;
+}
+.arrowRight{
+    flex:1;
+}
+.mortage
+{
+    
+  font-family: Heebo;
+  font-size: 9px;
+  
+  color: #9b9b9b;
+}
+/* .width
+{
+  width:80px;
+  height:95px;
+ 
+  margin:2.5px;
+}
+.main
+{
+  width:300px;
+} */
