@@ -12,7 +12,7 @@ function loadCustomer(e) {
         const profile = JSON.parse(this.responseText);
         
         document.getElementById('welcome').innerHTML=`<p>${profile.welcome}</p>`;
-        // document.getElementById('customer').innerHTML=`<p>${profile.customer}</p>`;
+         document.getElementById('customer').innerHTML=`<p>${profile.customer}</p>`;
       }
     }
   
