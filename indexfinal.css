@@ -1,0 +1,598 @@
+.gridLayout{
+    margin: auto;
+    max-width: 1280px;
+}
+
+.maxDefault{
+    width: 100%;
+    overflow: hidden;
+}
+
+.clearfix
+{
+overflow:auto;
+overflow-y: hidden;
+}
+.clearfix::after 
+{
+content: "";
+clear: both;
+display: table;
+}
+.classLeft
+{
+    float: left;
+}
+.classRight
+{
+    float: right;
+}
+
+.horizontalAlign{
+    display: inline-block;
+}
+.horizontalMargin
+{
+    margin-top: 20px;
+}
+.verticalMid{
+    vertical-align: middle;
+}
+
+.alignitems{
+    align-items: center;
+    display: flex;
+}
+
+.paddingTopBottom{
+    padding: 10px 0px;
+}
+
+/* Body Background */
+.bodyImg{
+    background: url("/assets/bgimage.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Header Styles */
+.headBG{
+    width: 100%;
+    align-items: center;
+    background-color: #495965;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.hamburger{
+    width: 30px;
+    height: 4px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    /* display: none; */
+    margin: 4px 0;
+}
+
+.headImg{
+    border-bottom: solid 2px transparent;
+    margin: auto 10px;
+    padding: 5px;
+}
+
+.headImg:active{
+    border-bottom: solid 2px #ffffff;
+}
+
+.search
+{
+width:20px;
+height:20px;
+}
+.location
+{
+   width: 14px;
+ height: 20px;
+ background-color: #495965;
+}
+.message
+{
+   width: 20px;
+   height: 16px;
+   background-color: #495965;
+}
+.notification
+{
+   width: 19px;
+   height: 21px;
+   padding: 15px;
+   background-color: #495965;
+}
+/* Body Styles */
+.bodyBG{
+    background-image: url("/assets/bgimage.jpg");
+    background-size: cover;
+  
+}
+/*section body top*/
+.searchBar
+{
+        position: relative;
+        display: inline;
+}
+
+.inputForm
+{
+   background-color: #2a4c69;
+   border-color: #00000000;
+   border-radius: 5px;
+   color: #ffffffff;
+   font: normal bold Roboto;
+   height: 45px;
+   opacity: 0.5;
+   width: 422px;
+   margin-top: 12px;
+}
+/* top section */
+.bodyTop
+{
+    margin-top: 20px;
+}
+.headButton{
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #00a8f6;
+    border-color: transparent;
+    margin-left: 15px;
+    
+}
+.logout
+{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+}
+
+.headcontent
+{
+    padding-left: 12px;
+}
+
+#welcome
+{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #bcbcbc;
+}
+#customer
+{
+    font-family: Roboto;
+  font-size: 10px;
+  color: #bcbcbc;
+}
+/* Display for the different divisions */
+.bannerBody{
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.leftDiv{
+    flex: 3;
+
+}
+
+.rightDiv{
+    flex: 1;
+}
+
+.accDetails{
+    height: 50%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
+}
+
+.accLeftDiv{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.accDetailsDropDown{
+    border-radius: 5px;
+    background-color: #fbfbfb;
+    background-size: 10px 6px;
+    border: solid 1px #d8d8d8;
+    color: #4a4a4a;
+    font: 12px Roboto;
+    margin: 10px;
+    padding: 15px;
+}
+.balanceTransaction{
+    padding: 15px;
+}
+
+.availBal{
+    font: 12px Roboto;
+}
+
+.balAmount{
+    color: #0871f4;
+    font: 32px Roboto-Light;
+}
+
+.balDate{
+    color: #999999;
+    font: 12px Roboto;
+}
+
+.transLink{
+    color: #0871f4;
+    font: 10px Roboto-Bold;
+    text-decoration: none;
+}
+
+.transLinkDiv{
+    width: 1px; 
+    height: 18px; 
+    background-color: #dddddd; 
+    display: inline-block;
+    margin:  5px;
+    border: hidden;
+}
+
+.accRightDiv{
+    flex: 1;
+}
+
+/* account transcations */
+.paymentInformation{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 40px;
+    padding: 5px 30px;
+}
+
+.interestPayment{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+}
+.green
+{
+    background-color: #7ed321;
+}
+
+.red{
+    background-color: #ed3a51;
+}
+.Dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+    margin: 10px;
+}
+
+.paymentDate{
+    color: #4a4a4a;
+    font: 12px Roboto;
+}
+
+.paymentDesc{
+    color: #4a4a4a;
+    font: 12px Roboto-Bold;
+}
+
+.paymentRate{
+    color: #0871f4;
+    font: 12px Roboto;
+}
+
+.scrollDown
+{
+    margin-left: 135px;
+    margin-top: 17px;
+}
+.leftBottomDiv{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quickpayDiv{
+    height:235px;
+    flex:1;
+    background-color:#fff;
+    margin-top:5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  }
+  .payInfo {
+    
+    background-color: #ffffff;
+    margin-top: 1%;
+    border-radius: 5px;
+}
+.paymentWrapper {
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+.quickPay {
+    color: black;
+    font-family: Roboto;
+    font-size: 16px;
+    padding: 5% 5% 5% 0%;
+}
+.fromAccount {
+    color: #737373;
+    font-size: 11px;
+    font-family: Heebo;
+    padding: 3px;
+}
+.accType{
+    background-color: #ffffffff;
+    border-color: #ffffffff;
+    border-bottom: 1px solid#9b9b9b;
+    font-family: Heebo;
+    font-size: 15px;
+    width: 100%;
+    margin: 2% 0%;
+    padding: 3px;
+}
+.transferButton {
+    color: #0871f4;
+    background-color: #ffffffff;
+    border: 1px solid #0871f4;
+    border-radius: 3px;
+    font-family: Heebo;
+    font-weight: bold;
+    height: 32px;
+    width: 110px;
+    margin-right: 5%;
+    cursor: pointer;
+    float: right;
+}
+.totAmount {
+    border-color: transparent;
+    border-bottom: 1px solid #9b9b9b;
+    font-family: Heebo;
+    font-size: 15px;
+    width: 125px;
+    padding: 3px;
+    margin: 3% 0% 2% 0%;
+}
+.bottomBanner{
+  height:234px;
+    background: url("/assets/bottombanner.jpg") no-repeat;
+    background-size: 100% 100%;
+    border-radius: 5px;
+    flex: 2;
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+
+.spending
+{
+    background-color: #ffffffff;
+    margin-top: 2%;
+    border-radius: 5px;
+    height: 312px;
+    width: 300px;
+    margin-left: 1%;
+    padding-bottom: 2%;
+    margin-bottom:2%;
+}
+.descContain
+{
+padding:5%;
+}
+.spendingTag
+{
+    display: inline;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.dateActive
+{
+        display: inline;
+        padding: 0% 12% 0% 12%;
+}
+.dateTag
+{
+    color: #9b9b9b;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 500;
+}
+.graphSpendings
+{
+    color: #9b9b9b;
+    font-family: Heebo;
+    font-size: 10px;
+    display: inline-block;
+    margin: 4% 6%;
+}
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrowLeft
+{
+    
+    margin-left: 10px;
+}
+.arrowRight
+{
+   
+   margin-right: 30px;
+
+}
+.activeTag
+{
+   width: 64px;
+   height: 2px;
+   background-color: #0871f4;
+   border:hidden;
+}
+
+.pieChartFlex
+{
+   flex:3;
+}
+.pieChartDetails{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px;
+}
+.pieChart {
+    width: 142.4px;
+    height: 142.4px;
+    margin: 0px 40px 3px 60px;
+}
+.pieChartText{
+    font-family: Heebo;
+    font-size: 8px;
+    color: #9b9b9b;
+    margin: 5px;
+}
+
+.pieChartDotsBlue{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #01c5dd;
+    margin: 5px;
+}
+
+.piechartDotsYellow{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ffb822;
+    margin: 5px;
+}
+
+.piechartDotsRed{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #7169cb;
+    margin: 5px;
+}
+
+.piechartDotsPink{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #e0516b;
+    margin: 5px;
+}
+
+.piechartDotsPurple{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #787f9a;
+    margin: 5px;
+}
+
+/* add attributes*/
+.addWidget{
+    width: 280px;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+}
+
+.paymentButton{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 15px 5px 5px;
+}
+
+.transactButtons{
+    width: 95px;
+    height: 95px;
+    align-items: center;
+    background-color: #46ab99;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding: 3px;
+    text-align: center;
+    border:hidden;
+}
+.buttonTextAdd
+{
+    font-family: Roboto;
+    font-size: 42px;
+    color: #ffffff;
+}
+.buttonText{
+    font-family: Roboto;
+    font-size: 12px;
+    color: #ffffff;
+}
+/*fotter*/
+.footer1 {
+    position: relative;
+    top: 12%;
+    left: 90%;
+    width: 8%;
+}
+.blackSquare{
+    background-color: #46ab99;
+    float: right;
+    height: 24px;
+    width: 24px;
+    margin-left: 5%;
+}
+.blueSquare {
+    background-color: #00a8f6;
+    float: right;
+    height: 24px;
+    width: 24px;
+    margin-left: 5%;
+}
+.greenSquare{
+    background-color: #495965;;
+    float: right;
+    height: 24px;
+    width: 24px;
+    margin-left: 10%;
+}
+.mainFooter, .footer1, .footer2 {
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.footer2 {
+   
+    font-family: Roboto;
+  font-size: 8px;
+  text-align: center;
+  color: #ffffff;
+} 

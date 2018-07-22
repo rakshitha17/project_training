@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>webpage assignment 3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="./../css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./../css/indexfinal.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./../css/fonts.css" />
+
+    <script src="/json/index.json"></script>
+    <script src="/script/app.js"></script>
+</head>
+   
+</head>
+<body>
+    
+    <section class=" bodyBG  maxDefault">
+        <header class="headBG gridLayout">
+            <!-- Hamburger Menu --> 
+            <div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+            <!-- menu icons -->
+            <div>
+                <img class="headImg location" src="/assets/location.svg">
+                <img class="headImg message" src="/assets/msg.jpg">
+                <img class="headImg " src="/assets/notification.png">
+            </div>
+        </header>
+
+        <main class="maxDefault">     
+        
+            <section class=" ">
+                    <section class="gridLayout marginLeftRight">
+                        <section class="bodyTop  ">
+                            <section class="searchBar gridLayout">
+                                <div>
+                                    <input type="text" class="inputForm" placeholder="I WANT TO...">
+                                    <img class="search" src="/assets/search.png" alt="search" />
+                                    <div class="classRight horizontalAlign horizontalMargin clearfix ">
+                                        <!--Profile Pic and Welcome message-->
+                                        <div class="horizontalAlign">
+                                            <figure class="classLeft">
+                                                <img class="headProfilePic" src="/assets/image.jpg.png" alt="Profile Pic" />
+                                            </figure>
+        
+                                            <div class="classLeft headcontent">
+                                                <p id="welcome"></p>
+                                                <p id="customer">last login at 9:35 on 20/10/2017</p>
+                                            </div>
+                                            <!--Logout button-->
+                                            <div class="classRight">
+                                                <button type="button" class="headButton logout">LOG OUT</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </section>
+                    </section>
+
+            <!-- Banner body -->
+            <section class="bannerBody gridLayout">
+                <div class="leftDiv">
+
+                    <!-- details of Account -->
+                    <div class="accDetails">
+                        <div class="accLeftDiv">
+
+                           
+                            <select class="accDetailsDropDown ">
+                                <option>PERSONAL CHECKING *3456</option>
+                            </select>
+
+                            <!-- Account Balance -->
+                            <div class="balanceTransaction">
+                                <div class="paddingTopBottom">
+                                    <p class="availBal">Available Balance</p>
+                                    <p class="balAmount">$2346.67</p>
+                                    <p class="balDate">AS OF 03/02/2016</p>
+                                </div>
+
+                                <div class="paddingTopBottom alignItems">
+                                    <a class="transLink" href="#">VIEW TRANSACTIONS</a>
+                                    <hr class="transLinkDiv">
+                                    <a class="transLink" href="#">MAKE A TRANSFER</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accRightDiv">
+
+                            <!--Transaction -->
+                            <div class="paymentInformation">
+
+                                <div class="interestPayment">
+                                    <div class="green Dot"></div>
+                                    <div>
+                                        <p class="paymentDate">09/01</p>
+                                        <p class="paymentDesc">Interest Payment very long transaction des…</p>
+                                        <p class="paymentRate">$150.00</p>
+                                    </div>
+                                </div>
+                                <div class="interestPayment">
+                                    <span class="red Dot"></span>
+                                    <div>
+                                        <p class="paymentDate">09/22</p>
+                                        <p class="paymentDesc">Regular Payment - CHK *3456</p>
+                                        <p class="paymentRate">$150,000,000.00</p>
+                                    </div>
+                                </div>
+                                <div class="interestPayment">
+                                        <span class="red Dot"></span>
+                                        <div>
+                                            <p class="paymentDate">09/01</p>
+                                            <p class="paymentDesc">Regular Payment - CHK *3456</p>
+                                            <p class="paymentRate">$150.00</p>
+                                        </div>
+                                </div>
+                                <div class="interestPayment">
+                                        <span class="red Dot"></span>
+                                        <div>
+                                            <p class="paymentDate">09/01</p>
+                                            <p class="paymentDesc">Interest Payment</p>
+                                            <p class="paymentRate">$0.01</p>
+                                        </div>
+                                </div>
+                                <img class="scrollDown" src="/assets/arrowdown.png"> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="leftBottomDiv">
+
+                        <!-- Quick Pay Form -->
+
+                        <div class="quickpayDiv">
+                                    <div class="payInfo">
+                                        <div class="paymentWrapper">
+                                            <p class="quickPay">QUICK PAY</p>
+                                            <form action="#">
+                                                <p class="fromAccount">From Account</p>
+                                                <select class="accType">
+                                                    <option value="Personal Chec..-*3486($2,346)" selected="selected">Personal Chec..-*3486($2,346)</option>
+                                                </select>
+                                                <p class="fromAccount">To Account</p>
+                                                <select class="accType">
+                                                    <option value="Jhon-*1234" selected="selected">Jhon-*1234</option>
+                                                </select>
+
+                                                <p class="fromAccount">Amount</p>
+
+                                                <input class="totAmount " value="$200.00" selected="selected">
+                                                <input type="submit" class="transferButton" value="Transfer" />
+                                        </div>
+                                        </form>
+
+                                    </div>
+                            </div>
+                      
+
+                        <!-- Bank Ad Banner -->
+                        <div class="bottomBanner">
+                    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rightDiv">
+
+                         <div class="accSummary">
+
+                <!--spending-->
+                <div class="spending">
+                        <div class="descContain">
+                            <p class="spendingTag">SPENDING</p>
+                            <div class="dateActive">
+                                <p class="dateTag">APR 2018</p>
+
+                                <img class=" " src="/assets/arrowdown.png" alt="Arrow Down" />
+                                <hr class="activeTag" />
+                            </div>
+                        </div>
+                        <section class="container">
+                            <div class="arrowLeft">
+                                <img src="/assets/arrowleft.png" />
+                            </div>
+                            <div class="pieChartFlex">
+                                <img class="pieChart" src="/assets/image (2).png" />
+                            </div>
+                            <div class="arrowright">
+                                <img src="/assets/arrowright.png" />
+                            </div>
+                            </section>
+                       
+                        <div class="pieChartDetails">
+                            <div class="alignItems">
+                                <div class="pieChartDotsBlue"></div>
+                                <p class="pieChartText">Mortgage</p>
+                            </div>
+                            <div class="alignItems">
+                                <div class="piechartDotsYellow"></div>
+                                <p class="pieChartText">Travel</p>
+                            </div>
+                            <div class="alignItems">
+                                <div class="pieChartDotsBlue"></div>
+                                <p class="pieChartText">Bills</p>
+                            </div>
+                            <div class="alignItems">
+                                <div class="piechartDotsRed"></div>
+                                <p class="pieChartText">Groceries</p>
+                            </div>
+                            
+                            <div class="alignItems">
+                                <div class="piechartDotsPink"></div>
+                                <p class="pieChartText">Health</p>
+                            </div>
+                            <div class="alignItems">
+                                <div class="piechartDotsPurple"></div>
+                                <p class="pieChartText">Others</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <ul class="paymentButton">
+                            <li class="">
+                                <button class="transactButtons"><p class="buttonText">FUND TRANSFER</p></button>
+                            </li>
+                            <li class="">
+                                <button class="transactButtons"><p class="buttonText">PAY BILLS</p></button>
+                            </li>
+                            <li class="">
+                                <button class="transactButtons">  <p class="buttonText">CREDIT CARDS</p></button>
+                            </li>
+                            <li class="">
+                                <button class=" transactButtons"><p class="buttonTextAdd">+</p></button>
+                            </li>
+
+                  
+                </div>
+            </section>         
+            <div class="footer1 horizontalAlign ">
+                    <span class="blackSquare"></span>
+                    <span class="blueSquare"></span>
+                    <span class="greenSquare"></span>
+                </div>
+                <section>
+                    <footer class="mainFooter">
+                        <div class="footer2">
+                            <p>&copy;2016 MOONRAFT INNOVATION LABS,ALL RIGHTS RESERVED</p>
+                        </div>
+                    </footer>
+        </main>
+    </section>
+</body>
+</html>
