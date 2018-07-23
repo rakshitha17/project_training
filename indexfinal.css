@@ -63,6 +63,10 @@ display: table;
     justify-content: space-between;
     padding: 5px 20px;
 }
+.headerBG
+{
+    background-color: #495965;
+}
 
 .hamburger{
     width: 30px;
@@ -72,17 +76,71 @@ display: table;
     /* display: none; */
     margin: 4px 0;
 }
+.hamburgerBlock
+{
+    margin-left: -50px;
+}
+.btn {
+    
+    /* outline: none; */
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 18px;
+}
 
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+    border-bottom: 2px solid #fff;
+    color: white;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
 .headImg{
     border-bottom: solid 2px transparent;
     margin: auto 10px;
     padding: 5px;
 }
-
+/* 
 .headImg:active{
     border-bottom: solid 2px #ffffff;
+} */
+.mystyle {
+     border-bottom: solid 2px #ffffff;
 }
-
+/* .active{
+    border-bottom: solid 2px #ffffff;
+} */
 .search
 {
 width:20px;
@@ -188,8 +246,24 @@ height:20px;
 
 .rightDiv{
     flex: 1;
+    position: relative;
 }
-
+.widgetLayoutAdd
+{
+    position: absolute;
+    height: 500px;
+    width:400px;
+    background-color: #f1f1f1;
+   
+}
+.button1
+{
+    height:50px;
+    width:150px;
+    padding:5%;
+    margin:5%;
+    background-color: #46ab99;
+}
 .accDetails{
     height: 50%;
     background-color: #ffffff;
@@ -198,6 +272,11 @@ height:20px;
     justify-content: space-between;
     margin: 5px;
     padding: 10px;
+   
+}
+
+.accSummary{
+    position: relative;
 }
 
 .accLeftDiv{
@@ -216,6 +295,8 @@ height:20px;
     font: 12px Roboto;
     margin: 10px;
     padding: 15px;
+    -webkit-appearance: none;
+    background: url("/assets/arrowdown.png") right no-repeat;
 }
 .balanceTransaction{
     padding: 15px;
@@ -313,6 +394,7 @@ height:20px;
 
 .quickpayDiv{
     height:235px;
+    margin-left: 5px;
     flex:1;
     background-color:#fff;
     margin-top:5px;
@@ -352,6 +434,8 @@ height:20px;
     width: 100%;
     margin: 2% 0%;
     padding: 3px;
+    -webkit-appearance: none;
+    background: url("/assets/arrowdown.png") right no-repeat;
 }
 .transferButton {
     color: #0871f4;
@@ -388,7 +472,25 @@ height:20px;
 
 .spending
 {
+    flex: 1;
     background-color: #ffffffff;
+    margin-top: 5%;
+    border-radius: 5px;
+    /* margin-left: 1%; */
+    padding-bottom: 6%;
+    /* margin: 2%; */
+    /* margin-bottom: 2%; */
+    height: 300px;
+}
+.header
+{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  height:300px;
+  width:300px;
+  flex-direction:column;
+  background-color: #ffffffff;
     margin-top: 2%;
     border-radius: 5px;
     height: 312px;
@@ -397,6 +499,11 @@ height:20px;
     padding-bottom: 2%;
     margin-bottom:2%;
 }
+/* .spendingContainer
+{
+  flex:1;
+  ;
+} */
 .descContain
 {
 padding:5%;
@@ -430,22 +537,38 @@ padding:5%;
     display: inline-block;
     margin: 4% 6%;
 }
-.container {
+ .container {
+     
     display:flex;
     justify-content: center;
-    align-items: center;
+    /*align-items: center; */
+    /* width:150px; */
+    /* background-color:#f1f1f1; */
+    /* position: relative;
+    overflow: hidden; */
 }
-.arrowLeft
+/* .pieChartClass
+{
+  flex:2;
+  background-color:red;
+} */
+/* .pieChartData
+{
+  flex:1;
+  background-color:green;
+} */
+/* .arrowLeft
 {
     
+  cursor: pointer;
     margin-left: 10px;
 }
 .arrowRight
 {
-   
+    cursor: pointer;
    margin-right: 30px;
-
-}
+   z-index: 5;
+}*/
 .activeTag
 {
    width: 64px;
@@ -454,6 +577,7 @@ padding:5%;
    border:hidden;
 }
 
+
 .pieChartFlex
 {
    flex:3;
@@ -461,13 +585,52 @@ padding:5%;
 .pieChartDetails{
     display: flex;
     flex-wrap: wrap;
-    padding: 35px;
+    padding: 20px;
 }
-.pieChart {
+/* .pieChart {
     width: 142.4px;
     height: 142.4px;
     margin: 0px 40px 3px 60px;
+} */
+.carosuelContent
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
 }
+.carousel_cont{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    flex:2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel{
+    width: 300%;
+    height: 100%;
+    display: flex;
+    transition: .5s;
+  }
+  
+  .carousel_each{
+    display: flex;
+    width: 33%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button_cont{
+    width: 300px;
+    display: flex;
+    justify-content: space-between
+      
+  }
 .pieChartText{
     font-family: Heebo;
     font-size: 8px;
@@ -530,7 +693,7 @@ padding:5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 5px 15px 5px 5px;
+    padding: 28px 15px 5px 5px;
 }
 
 .transactButtons{
@@ -596,3 +759,111 @@ padding:5%;
   text-align: center;
   color: #ffffff;
 } 
+.mySlides {display: none}
+.img {vertical-align: middle;}
+.pieChart {
+    width: 142.4px;
+    height: 142.4px;
+    margin: 0px 60px 3px 60px;
+    align-items: center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+  /* background-color:#f1f1f1; */
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  color: black;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+.rightDivMain
+{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  height:300px;
+  width:340px;
+  margin-top: 2%;
+  flex-direction:column;
+}
+.spendingContainer
+{
+  flex:1;
+  background-color:blue;
+}
+/* .pieChartClass
+{
+  flex:2;
+  background-color:red;
+} */
+.pieChartData
+{
+  flex:1;
+
+}
